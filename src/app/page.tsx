@@ -11,7 +11,7 @@ export default function Home() {
   const {push}=useRouter()
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // const API_key="a8f4161bb3255dc24b1e8aec1a5789de"
+  
     // const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_key}`)
 
     // const data=response.data.weather
